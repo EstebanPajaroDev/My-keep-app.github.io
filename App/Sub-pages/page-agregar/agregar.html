@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Keep Agregar
+    </title>
+    <link rel="stylesheet" href="/App/estilosHome.css">
+    <link rel="stylesheet" href="agregar.css">
+
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <header class="lateral">
+
+        <div class="logo">
+            <img src="/favicon/favicon.ico" alt="">
+        </div>
+
+        <div class="contenedor-iconos">
+
+            <div class="iconos" tabindex="0">
+                <img id="iconoCasa" src="https://img.icons8.com/ios-filled/50/EBEBEB/home.png" alt="home" />
+                <span class="link-icono">
+                    <a href="/App/home.html">
+                        Inicio
+                    </a>
+                </span>
+            </div>
+            <div class="iconos" tabindex="0">
+                <img id="iconoProductos" src="https://img.icons8.com/ios-filled/50/EBEBEB/book-shelf.png"
+                    alt="book-shelf" />
+                <span class="link-icono productos">
+                    <a href="../page-registros/registros.html">
+                        Productos
+                    </a>
+                </span>
+            </div>
+            <div class="iconos" tabindex="0">
+                <img id="iconoAgregar" src="https://img.icons8.com/pastel-glyph/64/EBEBEB/add-webpage--v1.png"
+                    alt="add-webpage--v1" />
+                <span class="link-icono agregar">
+                    <a href="../page-agregar/agregar.html">
+                        Agregar
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="contenedor2">
+
+            <div class="iconos2" tabindex="0">
+                <img id="iconoAyuda" src="https://img.icons8.com/glyph-neue/64/EBEBEB/help.png" alt="help" />
+                <span class="link-icono ayuda">
+                    <a href="../page-ayuda/ayuda.html">
+                        Ayuda
+                    </a>
+                </span>
+            </div>
+
+            <div class="iconos2" tabindex="0">
+                <img id="iconoSalir" src="https://img.icons8.com/ios-filled/50/EBEBEB/open-pane.png" alt="open-pane" />
+                <span class="link-icono cerrar">
+                    <a href="/index.html">
+                        Cerrar sesion
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="cuerpo">
+
+        <div class="texto">
+
+            <p class="texto-p">¿Comenzamos?</p>
+
+            <p>Aquí puedes agregar nuevos productos a tu inventario.
+                Completa los campos a continuación y haz clic en 
+                "Agregar Producto" para guardar la información.</p>
+
+            <h1>Guía de Uso del Formulario</h1>
+
+            <p>A continuación, se detallan los pasos para usar correctamente el formulario:</p>
+            <ol>
+                <li>
+                     Completa el campo <b> Nombre del producto</b>.
+                </li>
+                <li>
+                     Completa el campo <b> Cantidad de productos</b>.
+                </li>
+                
+                <li>
+                     Completa el campo <b> Precio del producto por unidad</b>.
+                </li>
+                
+                <li>
+                    Da click en el botón <b>Agregar producto</b>.
+                </li>
+                <li>
+                    Dirigete a la pagina de <b>Productos</b> O da click en el enlace.
+                </li>
+                
+               
+            </ol>
+        </div>
+        <div class="contenedor-formulario">
+
+            <main>
+                <section id="add-product">
+                    <h2>Agregar un producto</h2>
+                    <form id="productform">
+                        <label for="product-name">Nombre del Producto:</label>
+                        <input type="text" id="product-name" name="product-name" required>
+
+                        <label for="product-quantity">Cantidad:</label>
+                        <input type="number" id="product-quantity" name="product-quantity" required>
+
+                        <label for="product-price">Precio por Unidad:</label>
+                        <input type="number" id="product-price" name="product-price" required>
+
+                        <button type="submit">Agregar Producto</button>
+                    </form>
+                </section>
+
+            </main>
+            <p><a class="ver-producto" href="../page-registros/registros.html">Productos Registrados</a></p>
+        </div>
+
+    </section>
+
+
+    <script src="agregar.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+.cuerpo {
+  background-color: rgba(14, 9, 49, 0.784);
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+.texto-p{
+  font-weight: bold;
+  font-size: 5vh;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+.texto{
+  font-size: 2.5vh;
+  width: 40%; 
+  text-align: justify;
+ margin-right: 5%;
+
+}
+main {
+  padding: 5vh;
+  width: 70vh;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #36246873;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2%;
+  color: #a2a8ae;
+}
+
+h1,
+h2 {
+  font-size: 3vh;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 3vh;
+}
+
+input {
+  padding: 10px;
+  margin-top: 1vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input::placeholder {
+  background-color: #007BFF;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  width: calc(33% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  margin: 0 0 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+.ver-producto {
+  display: flex;
+  flex-direction: row;
+  padding: 1vh;
+  color: white;
+  font-size: 3.5vh;
+  text-decoration: none;
+  margin-top: 5%;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0.5vh;
+}
+.ver-producto:hover {
+  background-color: rgba(130, 130, 130, 0.391);
+  border-bottom: 0.1vh solid rgba(248, 248, 255, 0.377);
+}

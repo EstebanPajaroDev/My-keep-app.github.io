@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Keep Ayuda
+    </title>
+    <link rel="stylesheet" href="/App/estilosHome.css">
+    <link rel="stylesheet" href="ayuda.css">
+
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <header class="lateral">
+
+        <div class="logo">
+            <img src="/favicon/favicon.ico" alt="">
+        </div>
+
+        <div class="contenedor-iconos">
+
+            <div class="iconos">
+                <img id="iconoCasa" src="https://img.icons8.com/ios-filled/50/EBEBEB/home.png" alt="home" />
+                <span class="link-icono">
+                    <a href="/App/home.html">
+                        Inicio
+                    </a>
+                </span>
+            </div>
+            <div class="iconos">
+                <img id="iconoProductos" src="https://img.icons8.com/ios-filled/50/EBEBEB/book-shelf.png" alt="book-shelf" />
+                <span class="link-icono productos">
+                    <a href="../page-registros/registros.html">
+                        Productos
+                    </a>
+                </span>
+            </div>
+            <div class="iconos">
+                <img id="iconoAgregar" src="https://img.icons8.com/pastel-glyph/64/EBEBEB/add-webpage--v1.png" alt="add-webpage--v1" />
+                <span class="link-icono agregar">
+                    <a href="../page-agregar/agregar.html">
+                        Agregar
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="contenedor2">
+
+            <div class="iconos2">
+                <img id="iconoAyuda" src="https://img.icons8.com/glyph-neue/64/EBEBEB/help.png" alt="help" />
+                <span class="link-icono ayuda">
+                    <a href="../page-ayuda/ayuda.html">
+                        Ayuda
+                    </a>
+                </span>
+            </div>
+            <div class="iconos2">
+                <img id="iconoSalir" src="https://img.icons8.com/ios-filled/50/EBEBEB/open-pane.png" alt="open-pane" />
+                <span class="link-icono cerrar">
+                    <a href="/index.html">
+                        Cerrar sesion
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="cuerpo cuerpo-ayuda">
+        <div class="contenedor contenedor-ayuda">
+
+            <p class="titulo-bienvenida txt-principal">
+                ¿Necesitas ayuda?
+            </p>
+
+            <main>
+                <section class="txt-ayuda">
+                    <p>Bienvenido a la página de ayuda de <b>Keep</b>. <br> Aquí encontrarás toda la información necesaria para sacar el máximo provecho de nuestra
+                        aplicación.</p>
+                </section>
+
+                <section class="guia">
+                    <h2 class="txt-guia">Guía Rápida</h2>
+                    <ol class="lista-ayuda">
+                        <li><strong>Registro de Producto:</strong> Navega a la sección de productos y haz clic en
+                            "Agregar Producto". Llena los campos requeridos y guarda.</li>
+                        <li><strong>Editar Producto:</strong> Selecciona un producto de la lista y haz clic en "Editar".
+                            Modifica la información y guarda los cambios.</li>
+                        <li><strong>Eliminar Producto:</strong> Selecciona un producto de la lista y haz clic en
+                            "Eliminar". Confirma la acción.</li>
+                        <li><strong>Ver Inventario:</strong> Ve a la sección de productos para ver todos los productos
+                            registrados.</li>
+                    </ol>
+                </section>
+
+                <section class="faq">
+                    <h2>Preguntas Frecuentes (FAQ)</h2>
+                    <div class="faq-item">
+                        <h3>¿Cómo registro un nuevo producto?</h3>
+                        <p>Para registrar un nuevo producto, navega a la sección de productos, haz clic en "Agregar
+                            Producto", llena los campos requeridos y guarda.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Cómo puedo editar la información de un producto?</h3>
+                        <p>Para editar un producto, selecciona el producto de la lista y haz clic en "Editar". Modifica
+                            la información necesaria y guarda los cambios.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Qué hago si necesito eliminar un producto?</h3>
+                        <p>Para eliminar un producto, selecciona el producto de la lista y haz clic en "Eliminar".
+                            Confirma la acción para eliminar el producto.</p>
+                    </div>
+                </section>
+
+                <section id="videos">
+                    <h2>Vídeos Tutoriales</h2>
+                    <ul>
+                        <li><a class="enlaces-ayuda" href="https://www.youtube.com/watch?v=tu-enlace1" target="_blank">Cómo registrar un
+                                producto</a></li>
+                        <li><a class="enlaces-ayuda" href="https://www.youtube.com/watch?v=tu-enlace2" target="_blank">Cómo editar un
+                                producto</a></li>
+                        <li><a class="enlaces-ayuda" href="https://www.youtube.com/watch?v=tu-enlace3" target="_blank">Cómo eliminar un
+                                producto</a></li>
+                    </ul>
+                </section>
+
+                <section id="contact">
+                    <h2>Contacto</h2>
+                    <p>Si tienes alguna pregunta que no ha sido respondida aquí, por favor <a class="enlaces-ayuda"
+                            href="mailto:at712517@gmail.com">contáctanos</a></p>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; 2024 Keep. Todos los derechos reservados.</p>
+            </footer>
+
+        </div>
+    </section>
+
+<script>
+    let enlaceInicio = document.getElementById('iconoCasa');
+enlaceInicio.addEventListener('click', () => {
+  enlace = "/App/home.html";
+  window.open(enlace, '_self')
+})
+
+let enlaceProductos = document.getElementById('iconoProductos');
+enlaceProductos.addEventListener('click', () => {
+  enlace = "../page-registros/registros.html";
+  window.open(enlace, '_self')
+})
+
+let enlaceAgregar = document.getElementById('iconoAgregar');
+enlaceAgregar.addEventListener('click', () => {
+  enlace = "../page-agregar/agregar.html";
+  window.open(enlace, '_self')
+})
+
+let enlaceAyuda = document.getElementById('iconoAyuda');
+enlaceAyuda.addEventListener('click', () => {
+  enlace = "./ayuda.html";
+  window.open(enlace, '_self')
+})
+
+let enlaceSalir = document.getElementById('iconoSalir');
+enlaceSalir.addEventListener('click', () => {
+  enlace = "/index.html";
+  window.open(enlace, '_self')
+})
+
+</script>
+</body>
+
+</html>

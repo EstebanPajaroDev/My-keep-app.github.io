@@ -1,0 +1,11 @@
+.cuerpo {
+    background-color: rgba(8, 6, 45, 0.672);
+}
+#products-container{
+    background-color: red;
+    margin-bottom: 10%;
+}
+.product-card{
+    background-color: blueviolet;
+    margin-bottom: 10%;
+}

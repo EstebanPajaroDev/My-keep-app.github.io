@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Keep</title>
+    <link rel="stylesheet" href="estilosIndex.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <style>
+        h1{
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <main>
+            <nav class="menu">
+
+                <!-- LOGO -->
+                <div class="logo">
+                    <img src="./favicon/favicon.ico" alt="logo-de-keep">
+                </div>
+
+                <ul class="enlaces">
+                    <li class="enlaces-menu">
+                        <a href="./App/home.html" target="_blank" rel="noopener noreferrer">Keep</a>
+                    </li>
+                    <li class="enlaces-menu">
+                        <a href="#servicios" rel="noopener noreferrer">Servicios</a>
+                    </li>
+                    <li class="enlaces-menu">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">Soporte</a>
+                    </li>
+                    <li class="enlaces-menu">
+                        <a href="#contacto" rel="noopener noreferrer">Contacto</a>
+                    </li>
+                </ul>
+
+            </nav>
+            
+
+            <!-- seccion principal -->
+
+            <header class="header">
+
+                <div>
+                    <p class="titulo">
+                        Keep
+                    </p>
+                </div>
+
+                <p class="parrafo">
+                    Tu aliado de confianza para el almacenamiento
+                    seguro y eficiente de tus productos en bodega.
+                </p>
+
+
+                <button class="boton-ir" onclick="irKeep()">Ir a keep</button>
+                <button class="boton-contactar" onclick="contacto()">Contactar</button>
+
+                <div class="redes">
+                    <div class="ulr">
+
+                        <div class="lir">
+                            <button class="boton-redes" id="btnGit" onclick="enlaceGith()">
+                                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" alt="github" />
+                            </button>
+                        </div>
+
+                        <div class="lir">
+                            <button class="boton-redes" id="btnFace" onclick="enlaceFace()">
+                                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png"
+                                    alt="facebook" />
+                            </button>
+
+                        </div>
+
+                        <div class="lir">
+                            <button class="boton-redes" id="btnWhat" onclick="enlaceWhat()">
+                                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/whatsapp--v1.png"
+                                    alt="whatsapp" />
+                            </button>
+                        </div>
+
+                        <div class="lir">
+                            <button class="boton-redes" id="btnLink" onclick="enlaceLink()">
+                                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin-circled--v1.png"
+                                    alt="linkedin-circled--v1" /> </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </header>
+        </main>
+
+        <div class="seccion-2">
+
+            <!-- Segunda seccion -->
+
+            <div class="container">
+
+                <div class="cartas-container">
+
+                    <div class="txt-descripcion">Descripción de Keep</div>
+
+                    <!-- cartas -->
+
+                    <div class="tarjetas">
+                        <p class="titulo-carta">Expertos en almacenaje</p>
+                        <p class="info-cartas">Contamos con un equipo altamente capacitado para garantizar
+                            la seguridad y preservación de tus productos.</p>
+                    </div>
+
+                    <div class="tarjetas">
+                        <p class="titulo-carta">Soluciones a la medida</p>
+                        <p class="info-cartas">Diseñamos planes de almacenaje flexibles que se
+                            adaptan a las necesidades específicas de tu negocio,
+                            ya sea para productos o datos.</p>
+                    </div>
+
+
+                    <div class="tarjetas">
+                        <p class="titulo-carta">Tecnología de punta</p>
+                        <p class="info-cartas">Implementamos sistemas de monitoreo y control para
+                            mantener tus bienes en las mejores condiciones posibles.</p>
+                    </div>
+                    <div class="tarjetas">
+                        <p class="titulo-carta">Tecnología de punta</p>
+                        <p class="info-cartas">Implementamos sistemas de monitoreo y control para
+                            mantener tus bienes en las mejores condiciones posibles.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Tercera seccion -->
+
+
+        <section class="tercera-seccion">
+
+            <div class="cartas-2" id="servicios">
+
+                <div class="texto">
+                    <p>
+                        Servicios de <br> Almacenamiento
+                    </p>
+                </div>
+
+                <div class="cart">
+                    <p class="titulo-carta">Almacenaje de Productos</p>
+                    <p class="info-cartas">Nuestras instalaciones cuentan con la infraestructura adecuada para el
+                        almacenaje
+                        de una amplia gama de productos, desde mercancía general hasta artículos delicados.</p>
+                </div>
+
+                <div class="cart">
+                    <p class="titulo-carta">Almacenaje de Datos</p>
+                    <p class="info-cartas">Ofrecemos soluciones de almacenamiento de datos seguras y confiables, ya
+                        sea
+                        a
+                        corto o largo plazo, para resguardar tus activos digitales.</p>
+                </div>
+
+
+                <div class="cart">
+                    <p class="titulo-carta">Gestión de Inventario</p>
+                    <p class="info-cartas">Nuestro equipo de expertos te brinda un seguimiento exhaustivo de tus
+                        productos o
+                        datos almacenados, facilitando el control y la trazabilidad.</p>
+                </div>
+
+
+                <!-- imagen empleado -->
+                <div class="imagen1">
+                    <img src="https://images.unsplash.com/photo-1574073763042-9dbe6ae03853?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="empleado-keep">
+                </div>
+        </section>
+
+        <!-- CUARTA SECCION -->
+
+        <section class="cuarta-seccion">
+
+            <div class="cartas-3">
+
+                <div class="texto">
+                    <p>
+                        Unete a Keep
+                    </p>
+                </div>
+
+
+                <div class="cart-2">
+                    <div class="numero">1</div>
+
+                    <p class="titulo-carta"> Seguridad</p>
+                    <p class="info-cartas">
+                        Protegemos tus activos con sistemas avanzados de vigilancia y control de acceso.</p>
+                </div>
+
+                <div class="cart-2">
+                    <div class="numero">2</div>
+                    <p class="titulo-carta">Eficiencia</p>
+                    <p class="info-cartas">Nuestros procesos optimizados garantizan la entrega rápida y confiable de
+                        tus
+                        productos o datos.</p>
+                </div>
+
+
+                <div class="cart-2">
+                    <div class="numero">3</div>
+                    <p class="titulo-carta">Ahorro de Costos</p>
+                    <p class="info-cartas">Ofrecemos soluciones de almacenamiento rentables que te permiten reducir
+                        gastos y
+                        enfocarte en tu negocio.</p>
+                </div>
+                <div class="cart-2">
+                    <div class="numero">4</div>
+                    <p class="titulo-carta">Escalabilidad</p>
+                    <p class="info-cartas">Adaptamos nuestros servicios a medida que tu negocio crece, brindándote
+                        flexibilidad y capacidad de expansión.</p>
+                </div>
+
+
+                <!-- imagen empleado -->
+                <div class="imagen2">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="empleado-keep">
+                </div>
+        </section>
+
+        <!-- FOOTER -->
+    </section>
+
+    <footer class="footer">
+        <div class="texto-footer">
+            Contactanos
+        </div>
+
+        <div class="lista" id="contacto">
+            <div class="columna1">
+                <div class="col-1">
+                    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/new-post.png" alt="new-post" />
+                    <h2>Correo electronico</h2>
+                    <p>At712517@gmail.com</p>
+                </div>
+                <div class="col-2">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/marker.png"
+                        alt="marker" />
+                    <h2>Ubicacion</h2>
+                    <p>Colombia</p>
+                </div>
+            </div>
+
+            <div class="columna2">
+                <div class="col-3">
+                    <img src="https://img.icons8.com/ios/50/FFFFFF/internet--v1.png" alt="internet--v1" />
+                    <h2>Sitio web</h2>
+                    <p>Keep.netlify.app</p>
+                </div>
+                <div class="col-4">
+                    <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/phone-disconnected.png"
+                        alt="phone-disconnected" />
+                    <h2>Telefono</h2>
+                    <p>+57 300-603-1803</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
